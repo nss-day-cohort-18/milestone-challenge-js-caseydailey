@@ -19,6 +19,7 @@ mama.addEventListener("keypress", e => (e.keyCode == 13) ? runProgram() : null);
 
 //functions declared
 
+
 function reset() {
 	window.location.reload(true);
 }
@@ -74,5 +75,3 @@ function runProgram() {
 					
 			}
 		};
-
-			
