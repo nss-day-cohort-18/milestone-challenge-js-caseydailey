@@ -30,6 +30,7 @@ It is absolutely critical that you read each of these requirements because as a 
 
 Create a `tree` function that should build a pine tree out of a character in the Chrome dev tools console. 
 
+
 ### It accepts a single object as an argument. The object should have two key/value pairs.
 
 1. A key that specifies the height of the pine tree.
