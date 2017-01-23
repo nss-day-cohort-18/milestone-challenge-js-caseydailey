@@ -3,11 +3,11 @@ console.log("is this thing on?");
 console.log('let\s make a tree!');
 
 //DOM elements involved:
-let mama = document.getElementById("mama");
-let resetButton = document.getElementById("reset");
-let growButton = document.getElementById("grow");
-let heightInput = document.getElementById("height");
-let characterInput = document.getElementById("character");
+const mama = document.getElementById("mama");
+const resetButton = document.getElementById("reset");
+const growButton = document.getElementById("grow");
+const heightInput = document.getElementById("height");
+const characterInput = document.getElementById("character");
 
 //object initialized
 let tree ={};
@@ -40,6 +40,7 @@ function grow(tree) {
 		let characters = tree.character.repeat(characterCount);
 
 		console.log(`${spaces} ${characters}`);
+
 
 		characterCount += 2;
 		spaceCount--;
